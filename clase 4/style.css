@@ -1,0 +1,94 @@
+h1 {
+    color: orange;
+    font-size: 50px;
+}
+
+.parrafo {
+    background-color: green;
+    font-size: 25px;
+}
+
+#subtitulo {
+    background-color: blue;
+    color: white;
+}
+
+/* SELECTOR UNIVERSAL  */
+
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* MODIFICAR ESTILO DE LISTAS  <ul> <ol>*/
+
+.lista-verduleria {
+    list-style: none;
+}
+
+/* ESTILOS PARA TEXTOS */
+
+.italica {
+    font-style: italic;  
+    font-weight: 900;  
+}
+
+/* POR DEFECTO, EL ESTILO DEL FONT-STYLE ES NORMAL, POR LO TANTO NO ES NECESARIO ACLARARLO*/
+
+.normal {
+    font-style: normal;
+    color: aliceblue;
+}
+
+.grosor-fuente {
+    font-weight: 900;
+}
+
+/* COMO ALINEAR UN TEXTO */
+
+.texto-center {
+    text-align: center;
+}
+
+.texto-izq {
+    text-align: right;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.subrayado {
+    text-decoration: line-through;
+}
+
+.interlineado {
+    line-height: 5.0;
+}
+
+/* Estilos para fondos */
+
+.lista-verduleria {
+    background-color: rgba(145, 26, 196, 0.996);
+    
+}
+
+.imagen-fondo {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-galaxia-realista_23-2148991322.jpg");
+}
+
+.caja {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-galaxia-realista_23-2148991322.jpg");
+    width: 500px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+
+}
+
+/* OPACIDAD DE LAS IMÁGENES */
+
+.imagen {
+    opacity: 0.3;
+}
